@@ -3,22 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+package javaapplication1;
 
 /**
  *
  * @author Gogula Triveni
  */
-import java.util.Scanner;
-public class multiplaction {
-    public static void main(String[] args) {
-    int n,m;
-    System.out.println("enter table number");
-    Scanner sc=new Scanner(System.in);
-    n=sc.nextInt();
-    for(m=1;m<=10;m++)
-        System.out.println(n+"*"+m+"="+(n*m));
+ class rectangleone {
+    int a;
+    void display()
+    {
+         System.out.println(a);
     }
-    
-    
+}
+class tt
+{
+    public static void main(String[] args) {
+        rectangleone ob =new rectangleone();
+        ob.a=20;
+        ob.display();
+        
+        
+    }
 }

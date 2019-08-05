@@ -1,16 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package javaapplication1;
 
-/**
- *
- * @author Gogula Triveni
- */
 import java.util.Scanner;
-public class arrayinput {
+ class arrayinput {
     public static void main(String args[]){
         System.out.println("enter the array size");
         Scanner sc=new Scanner(System.in);
@@ -23,9 +13,11 @@ public class arrayinput {
               a[i]=sc.nextInt();
          }
 
+       System.out.println("enter the array elements");
          for(i=0;i<n;i++)
-       
-         int m=a.length;
+  System.out.println(a[i]);
+
+         int  m=a.length;
          for(i=0;i<m-1;i++)
          {
              for(j=0;j<(m-i-1);j++)

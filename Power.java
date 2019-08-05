@@ -3,22 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+package power;
 
 /**
  *
  * @author Gogula Triveni
  */
-import java.util.Scanner;
-public class multiplaction {
+public class Power {
+
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-    int n,m;
-    System.out.println("enter table number");
-    Scanner sc=new Scanner(System.in);
-    n=sc.nextInt();
-    for(m=1;m<=10;m++)
-        System.out.println(n+"*"+m+"="+(n*m));
+        // TODO code application logic here
     }
-    
     
 }

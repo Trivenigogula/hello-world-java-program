@@ -4,21 +4,20 @@
  * and open the template in the editor.
  */
 
-
 /**
  *
  * @author Gogula Triveni
  */
-import java.util.Scanner;
-public class multiplaction {
+public class factorial {
     public static void main(String[] args) {
-    int n,m;
-    System.out.println("enter table number");
-    Scanner sc=new Scanner(System.in);
-    n=sc.nextInt();
-    for(m=1;m<=10;m++)
-        System.out.println(n+"*"+m+"="+(n*m));
+         int i=0,n=5;
+         int fact=1;
+         for(i=1;i<=n;i++)
+         {
+             fact=fact*i;
+         }
+         System.out.println(fact);
     }
-    
+         
     
 }

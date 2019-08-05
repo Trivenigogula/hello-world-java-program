@@ -4,21 +4,20 @@
  * and open the template in the editor.
  */
 
-
 /**
  *
  * @author Gogula Triveni
- */
-import java.util.Scanner;
-public class multiplaction {
+ */import java.util.Scanner;
+public class swapping {
     public static void main(String[] args) {
-    int n,m;
-    System.out.println("enter table number");
-    Scanner sc=new Scanner(System.in);
-    n=sc.nextInt();
-    for(m=1;m<=10;m++)
-        System.out.println(n+"*"+m+"="+(n*m));
+        int a=10,b=30,c;
+        c=a;
+        a=b;
+        b=c;
+        
+        System.out.println(a);
+        System.out.println(b);
+        
     }
-    
     
 }

@@ -3,22 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+package javaapplication1;
 
 /**
  *
  * @author Gogula Triveni
  */
-import java.util.Scanner;
-public class multiplaction {
+public class print5times {
     public static void main(String[] args) {
-    int n,m;
-    System.out.println("enter table number");
-    Scanner sc=new Scanner(System.in);
-    n=sc.nextInt();
-    for(m=1;m<=10;m++)
-        System.out.println(n+"*"+m+"="+(n*m));
+ int i=0,n=5;
+         for(i=0;i<=n;i++)
+             System.out.println("hi");
     }
-    
-    
 }
